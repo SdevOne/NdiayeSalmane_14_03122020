@@ -1,0 +1,92 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-link {
+  margin-bottom: 1rem;
+}
+form {
+  background-color: #009879;
+  width: 38rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem 2.5rem;
+  color: #fff;
+}
+.form-title {
+  display: flex;
+  justify-content: center;
+}
+.first-form-container {
+  display: flex;
+  justify-content: space-around;
+}
+.identity-container,
+.address-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.address-container select {
+  width: 10rem;
+}
+.department-container {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.department-container select {
+  width: 14rem;
+}
+input,
+select {
+  width: 9rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.5rem;
+}
+select {
+  text-align: center;
+  height: 2.5rem;
+}
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.address {
+  margin-top: 1rem;
+}
+.form-btn {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+.form-btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  form {
+    width: 20rem;
+  }
+  .first-form-container {
+    display: block;
+  }
+  input,
+  select {
+    width: 12rem;
+    height: 2rem;
+  }
+  .address-container select,
+  .department-container select {
+    width: 13rem;
+    height: 2.6rem;
+  }
+}
